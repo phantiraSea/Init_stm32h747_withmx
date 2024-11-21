@@ -1,47 +1,53 @@
-# Compiled binaries
-*.o
-*.bin
-*.elf
-*.hex
-*.map
-*.out
-*.obj
+#settings
+.settings/
 
-# Trash
-*.bak
-thumbs.db
-*.~*
+#metadata
+.metadata/
 
-# IAR Settings  
-**/settings/*.crun  
-**/settings/*.dbgdt  
-**/settings/*.cspy  
-**/settings/*.cspy.*  
-**/settings/*.xcl  
-**/settings/*.dni  
-**/settings/*.wsdt  
-**/settings/*.wspos  
-
-# IAR Debug Exe  
-**/Exe/*.sim  
-
-# IAR Debug Obj  
-**/Obj/*.pbd  
-**/Obj/*.pbd.*  
-**/Obj/*.pbi  
-**/Obj/*.pbi.*  
-
-# IAR project "Debug" directory
+#Debug
 Debug/
-
-# IAR project "Release" directory
+debug/
 Release/
+release
 
-# IAR project settings directory
-settings/
+# Prerequisites
+*.d
 
-# IAR backup files
-Backup*
+# Object files
+*.o
+*.ko
+*.obj
+*.elf
 
-# IAR .dep files
-*.dep
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Libraries
+*.lib
+*.a
+*.la
+*.lo
+
+# Shared objects
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+*.bin
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
